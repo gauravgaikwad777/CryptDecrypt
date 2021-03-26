@@ -1,0 +1,2534 @@
+
+EJM7295@USBNNH8KB1Z2-1 MINGW64 /c/Dev/CMS/Baxalta.CalibrationMaintenance.Web (develop)
+$ gulp build
+[16:25:49] Using gulpfile C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\gulpfile.js
+[16:25:49] Starting 'scripts'...
+[16:25:50] Starting 'styles'...
+[16:25:50] Starting 'partials'...
+[16:25:51] Starting 'copy-bootstrap-fonts'...
+[16:25:51] Starting 'other'...
+[16:25:51] gulp-inject 3 files into index.less.
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\appConfig.js
+  line 2  col 5  Missing "use strict" statement.
+  line 5  col 6  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+[16:25:51] gulp-inject 3 files into vendor.less.
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\appRun.js
+  line 3   col 9   Missing "use strict" statement.
+  line 34  col 38  Expected '!==' and instead saw '!='.
+  line 66  col 28  Expected '===' and instead saw '=='.
+  line 90  col 25  'permissionStatus' is already defined.
+  line 92  col 22  'permissionStatus' used out of scope.
+  line 22  col 17  'requireLogin' is defined but never used.
+  line 21  col 92  'fromParams' is defined but never used.
+  line 21  col 81  'fromState' is defined but never used.
+  line 21  col 71  'toParams' is defined but never used.
+  line 5   col 9   '$' is not defined.
+  line 5   col 11  'document' is not defined.
+  line 11  col 22  'navigator' is not defined.
+
+  ×  1 error
+  ‼  11 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\index.js
+  line 1   col 1   Use the function form of "use strict".
+  line 13  col 7   '$' is not defined.
+  line 18  col 7   '$' is not defined.
+  line 47  col 34  'breeze' is not defined.
+
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\rootController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 40  col 17  'console' is not defined.
+  line 41  col 17  'console' is not defined.
+
+  ×  1 error
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\adminConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\correctiveMaintenanceConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\correctiveMaintenanceSaveService.js
+  line 3    col 9   Missing "use strict" statement.
+  line 46   col 72  Expected '===' and instead saw '=='.
+  line 53   col 45  Expected '===' and instead saw '=='.
+  line 76   col 24  Missing semicolon.
+  line 98   col 21  'rRecord' is already defined.
+  line 103  col 27  Missing semicolon.
+  line 102  col 39  'rRecord' used out of scope.
+  line 103  col 20  'rRecord' used out of scope.
+  line 137  col 2   Unnecessary semicolon.
+  line 147  col 10  Unnecessary semicolon.
+  line 157  col 10  Unnecessary semicolon.
+  line 25   col 13  '_' is not defined.
+  line 29   col 13  '_' is not defined.
+  line 36   col 13  '_' is not defined.
+  line 59   col 25  '_' is not defined.
+  line 64   col 25  '_' is not defined.
+  line 69   col 25  '_' is not defined.
+  line 127  col 9   '_' is not defined.
+  line 132  col 9   '_' is not defined.
+
+  ×  1 error
+  ‼  18 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\common.js
+  line 50  col 3  Missing semicolon.
+
+  ‼  1 warning
+
+[16:25:52] Finished 'copy-bootstrap-fonts' after 1.93 s
+[16:25:52] Starting 'fonts'...
+[16:25:52] Finished 'styles' after 2.75 s
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\dashboard\dashboardConfig.js
+  line 3   col 9   Missing "use strict" statement.
+  line 12  col 73  'currentUserInfo' is defined but never used.
+  line 15  col 68  'currentUserInfo' is defined but never used.
+  line 18  col 68  'currentUserInfo' is defined but never used.
+  line 21  col 67  'currentUserInfo' is defined but never used.
+
+  ×  1 error
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\dashboard\dashboardController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 22  col 13  '_' is not defined.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\dateSave\pagerService.js
+  line 4   col 9   Missing "use strict" statement.
+  line 6   col 10  Missing semicolon.
+  line 42  col 25  '_' is not defined.
+
+  ×  1 error
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\dateSave\recordDateSaveService.js
+  line 4    col 9    Missing "use strict" statement.
+  line 18   col 110  Confusing plusses.
+  line 24   col 96   Missing semicolon.
+  line 63   col 76   Missing semicolon.
+  line 74   col 89   Missing semicolon.
+  line 74   col 119  Expected an assignment or function call and instead saw an expression.
+  line 159  col 104  Expected a 'break' statement before 'case'.
+  line 24   col 26   '_' is not defined.
+
+  ×  1 error
+  ‼  7 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\dist\appConfig.dev.js
+  line 1  col 1  Use the function form of "use strict".
+
+  ‼  1 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\preventiveMaintenance.js
+  line 3  col 1  Comma warnings can be turned off with 'laxcomma'.
+  line 2  col 1  Misleading line break before ','; readers may interpret this as an expression boundary.
+  line 3  col 3  Misleading line break before ','; readers may interpret this as an expression boundary.
+  line 4  col 3  Misleading line break before ','; readers may interpret this as an expression boundary.
+
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\preventiveMaintenanceConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\preventiveMaintenanceService.js
+  line 4    col 9    Missing "use strict" statement.
+  line 30   col 10   Unnecessary semicolon.
+  line 45   col 21   'rRecord' is already defined.
+  line 49   col 39   'rRecord' used out of scope.
+  line 50   col 20   'rRecord' used out of scope.
+  line 71   col 17   'newPMSteps' is defined but never used.
+  line 131  col 10   Unnecessary semicolon.
+  line 269  col 69   Expected '!==' and instead saw '!='.
+  line 320  col 68   Expected '===' and instead saw '=='.
+  line 325  col 101  Expected '!==' and instead saw '!='.
+  line 326  col 242  Expected '!==' and instead saw '!='.
+  line 422  col 48   Expected '===' and instead saw '=='.
+  line 427  col 81   Expected '!==' and instead saw '!='.
+  line 428  col 222  Expected '!==' and instead saw '!='.
+  line 447  col 10   Unnecessary semicolon.
+  line 456  col 10   Unnecessary semicolon.
+  line 653  col 60   Expected '===' and instead saw '=='.
+  line 659  col 71   Expected '!==' and instead saw '!='.
+  line 659  col 115  Expected '!==' and instead saw '!='.
+  line 672  col 234  Expected '!==' and instead saw '!='.
+  line 757  col 48   Expected '===' and instead saw '=='.
+  line 764  col 59   Expected '!==' and instead saw '!='.
+  line 764  col 103  Expected '!==' and instead saw '!='.
+  line 780  col 222  Expected '!==' and instead saw '!='.
+  line 792  col 27   Missing semicolon.
+  line 804  col 10   Unnecessary semicolon.
+  line 816  col 10   Unnecessary semicolon.
+  line 832  col 10   Unnecessary semicolon.
+  line 884  col 62   Expected '===' and instead saw '=='.
+  line 982  col 10   Unnecessary semicolon.
+  line 17   col 44   '_' is not defined.
+  line 21   col 20   '_' is not defined.
+  line 71   col 30   '_' is not defined.
+  line 87   col 13   '_' is not defined.
+  line 137  col 13   '_' is not defined.
+  line 150  col 13   '_' is not defined.
+  line 245  col 13   '_' is not defined.
+  line 250  col 13   '_' is not defined.
+  line 272  col 21   '_' is not defined.
+  line 356  col 41   '_' is not defined.
+  line 370  col 41   '_' is not defined.
+  line 371  col 45   '_' is not defined.
+  line 569  col 13   '_' is not defined.
+  line 574  col 13   '_' is not defined.
+  line 583  col 17   '_' is not defined.
+  line 660  col 41   '_' is not defined.
+  line 666  col 41   '_' is not defined.
+  line 694  col 41   '_' is not defined.
+  line 708  col 41   '_' is not defined.
+  line 709  col 45   '_' is not defined.
+  line 709  col 45   Too many errors. (69% scanned).
+
+  ×  2 errors
+  ‼  49 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\reportingConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\unauthenticated\unauthenticatedConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\equipmentManagementConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\equipmentManagementSaveService.js
+  line 4    col 9    Missing "use strict" statement.
+  line 47   col 27   Expected '!==' and instead saw '!='.
+  line 61   col 10   Unnecessary semicolon.
+  line 76   col 21   'rRecord' is already defined.
+  line 80   col 39   'rRecord' used out of scope.
+  line 81   col 20   'rRecord' used out of scope.
+  line 135  col 113  'openPendingPms' is defined but never used.
+  line 135  col 88   'openPendingVerification' is defined but never used.
+  line 222  col 91   Missing semicolon.
+  line 58   col 13   '_' is not defined.
+  line 94   col 17   '_' is not defined.
+  line 100  col 17   '_' is not defined.
+  line 106  col 17   '_' is not defined.
+  line 115  col 21   '_' is not defined.
+  line 122  col 21   '_' is not defined.
+  line 138  col 17   '_' is not defined.
+  line 144  col 17   '_' is not defined.
+  line 150  col 17   '_' is not defined.
+  line 156  col 17   '_' is not defined.
+  line 221  col 21   '_' is not defined.
+  line 231  col 17   '_' is not defined.
+
+  ×  1 error
+  ‼  20 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\verificationConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\verificationDetailService.js
+  line 4    col 9    Missing "use strict" statement.
+  line 33   col 128  'equipment' is defined but never used.
+  line 33   col 114  'gracePeriods' is defined but never used.
+  line 102  col 49   'startDate' is already defined.
+  line 112  col 45   'startDate' is already defined.
+  line 113  col 45   'endDate' is already defined.
+  line 137  col 45   'startDate' is already defined.
+  line 138  col 45   'endDate' is already defined.
+  line 143  col 45   'startDate' is already defined.
+  line 144  col 45   'endDate' is already defined.
+  line 108  col 74   'dueDate' used out of scope.
+  line 34   col 13   '_' is not defined.
+  line 74   col 13   '_' is not defined.
+  line 77   col 25   '_' is not defined.
+  line 163  col 37   '_' is not defined.
+  line 88   col 59   'moment' is not defined.
+  line 89   col 57   'moment' is not defined.
+  line 99   col 56   'moment' is not defined.
+  line 100  col 54   'moment' is not defined.
+  line 120  col 76   'moment' is not defined.
+  line 121  col 74   'moment' is not defined.
+  line 124  col 76   'moment' is not defined.
+  line 125  col 74   'moment' is not defined.
+  line 128  col 76   'moment' is not defined.
+  line 129  col 74   'moment' is not defined.
+  line 132  col 76   'moment' is not defined.
+  line 133  col 74   'moment' is not defined.
+  line 98   col 60   'mCompletedDate' is not defined.
+  line 101  col 92   'mCompletedDate' is not defined.
+  line 118  col 53   'mCompletedDate' is not defined.
+
+  ×  1 error
+  ‼  29 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\verificationSaveService.js
+  line 5    col 9   Missing "use strict" statement.
+  line 73   col 35  Expected '===' and instead saw '=='.
+  line 77   col 46  Expected '===' and instead saw '=='.
+  line 81   col 45  Expected '===' and instead saw '=='.
+  line 85   col 36  Expected '===' and instead saw '=='.
+  line 113  col 40  Expected '===' and instead saw '=='.
+  line 145  col 44  Expected '===' and instead saw '=='.
+  line 235  col 21  'rRecord' is already defined.
+  line 241  col 39  'rRecord' used out of scope.
+  line 242  col 20  'rRecord' used out of scope.
+  line 256  col 21  'vfDueDate' is already defined.
+  line 261  col 40  'vfDueDate' used out of scope.
+  line 271  col 76  Expected '===' and instead saw '=='.
+  line 286  col 31  Expected '===' and instead saw '=='.
+  line 286  col 77  Expected '===' and instead saw '=='.
+  line 314  col 65  Missing semicolon.
+  line 415  col 42  'reject' is defined but never used.
+  line 474  col 55  Expected '===' and instead saw '=='.
+  line 472  col 34  'message' is defined but never used.
+  line 528  col 53  Expected '===' and instead saw '=='.
+  line 530  col 48  Missing semicolon.
+  line 532  col 60  Expected '===' and instead saw '=='.
+  line 553  col 47  Expected '!==' and instead saw '!='.
+  line 559  col 33  Expected '!==' and instead saw '!='.
+  line 559  col 61  Expected '===' and instead saw '=='.
+  line 563  col 75  'config' is defined but never used.
+  line 563  col 66  'headers' is defined but never used.
+  line 563  col 58  'status' is defined but never used.
+  line 563  col 52  'data' is defined but never used.
+  line 550  col 42  'reject' is defined but never used.
+  line 548  col 75  'didPassCallbackFunction' is defined but never used.
+  line 593  col 21  Unreachable 'break' after 'return'.
+  line 600  col 21  Unreachable 'break' after 'return'.
+  line 608  col 21  Unreachable 'break' after 'return'.
+  line 616  col 21  Unreachable 'break' after 'return'.
+  line 622  col 21  Unreachable 'break' after 'return'.
+  line 628  col 21  Unreachable 'break' after 'return'.
+  line 635  col 22  Missing semicolon.
+  line 638  col 21  Unreachable 'break' after 'return'.
+  line 673  col 14  Missing semicolon.
+  line 689  col 26  Missing semicolon.
+  line 709  col 22  Missing semicolon.
+  line 713  col 25  'reading' is already defined.
+  line 729  col 22  Missing semicolon.
+  line 733  col 25  'reading' is already defined.
+  line 744  col 22  Missing semicolon.
+  line 748  col 25  'reading' is already defined.
+  line 758  col 22  Missing semicolon.
+  line 778  col 10  Unnecessary semicolon.
+  line 801  col 10  Unnecessary semicolon.
+  line 801  col 10  Too many errors. (65% scanned).
+
+  ×  2 errors
+  ‼  49 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\home\homeConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\home\homeController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\controlManagement\controlManagementConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\controlManagement\controlManagementController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 35  col 10  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\recordUnlock\recordUnlockConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+[16:25:53] Finished 'other' after 2.49 s
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\recordUnlock\recordUnlockController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 31  col 10  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\userList\userListConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+[16:25:53] Finished 'fonts' after 574 ms
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\userList\userListController.js
+  line 3    col 9   Missing "use strict" statement.
+  line 101  col 18  Missing semicolon.
+  line 131  col 41  Expected '!==' and instead saw '!='.
+  line 184  col 37  Expected '===' and instead saw '=='.
+  line 184  col 62  Expected '===' and instead saw '=='.
+  line 187  col 37  Expected '!==' and instead saw '!='.
+  line 209  col 29  Unnecessary semicolon.
+  line 9    col 41  '_' is not defined.
+  line 14   col 13  '_' is not defined.
+  line 35   col 17  '_' is not defined.
+  line 58   col 13  '_' is not defined.
+  line 59   col 17  '_' is not defined.
+  line 68   col 17  '_' is not defined.
+  line 130  col 25  '_' is not defined.
+  line 193  col 25  '_' is not defined.
+
+  ×  1 error
+  ‼  14 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\userSearch\userSearchConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\admin\userSearch\userSearchController.js
+  line 3    col 9   Missing "use strict" statement.
+  line 79   col 40  Expected '===' and instead saw '=='.
+  line 149  col 10  Missing semicolon.
+  line 151  col 47  'error' is defined but never used.
+  line 163  col 29  Expected '===' and instead saw '=='.
+  line 198  col 41  Expected '!==' and instead saw '!='.
+  line 234  col 71  Expected '===' and instead saw '=='.
+  line 253  col 44  Expected '===' and instead saw '=='.
+  line 253  col 69  Expected '===' and instead saw '=='.
+  line 265  col 43  Expected '===' and instead saw '=='.
+  line 265  col 68  Expected '===' and instead saw '=='.
+  line 279  col 46  Expected '!==' and instead saw '!='.
+  line 298  col 43  Expected '!==' and instead saw '!='.
+  line 325  col 45  Expected '!==' and instead saw '!='.
+  line 21   col 45  '_' is not defined.
+  line 27   col 13  '_' is not defined.
+  line 45   col 17  '_' is not defined.
+  line 69   col 17  '_' is not defined.
+  line 96   col 13  '_' is not defined.
+  line 97   col 22  '_' is not defined.
+  line 97   col 32  '_' is not defined.
+  line 98   col 43  '_' is not defined.
+  line 106  col 25  '_' is not defined.
+  line 115  col 25  '_' is not defined.
+  line 158  col 13  '_' is not defined.
+  line 197  col 25  '_' is not defined.
+  line 285  col 41  '_' is not defined.
+  line 333  col 33  '_' is not defined.
+
+  ×  1 error
+  ‼  27 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\createDetail\createDetailConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\createDetail\createDetailController.js
+  line 5    col 9    Missing "use strict" statement.
+  line 37   col 117  Expected '===' and instead saw '=='.
+  line 46   col 66   Expected '===' and instead saw '=='.
+  line 117  col 41   Expected '===' and instead saw '=='.
+  line 128  col 42   Expected '!==' and instead saw '!='.
+  line 79   col 13   '_' is not defined.
+  line 80   col 17   '_' is not defined.
+  line 97   col 17   '_' is not defined.
+  line 99   col 21   '_' is not defined.
+
+  ×  1 error
+  ‼  8 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\detail\detailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 18  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\detail\detailController.js
+  line 6    col 9    Missing "use strict" statement.
+  line 56   col 42   'event' is defined but never used.
+  line 66   col 117  Expected '===' and instead saw '=='.
+  line 75   col 66   Expected '===' and instead saw '=='.
+  line 154  col 10   Missing semicolon.
+  line 161  col 41   Expected '===' and instead saw '=='.
+  line 172  col 31   Expected '===' and instead saw '=='.
+  line 178  col 10   Missing semicolon.
+  line 183  col 78   Missing semicolon.
+  line 216  col 23   Missing semicolon.
+  line 233  col 23   Missing semicolon.
+  line 255  col 42   Expected '!==' and instead saw '!='.
+  line 272  col 10   Missing semicolon.
+  line 278  col 63   'config' is defined but never used.
+  line 278  col 54   'headers' is defined but never used.
+  line 278  col 46   'status' is defined but never used.
+  line 278  col 40   'data' is defined but never used.
+  line 278  col 30   Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (self)
+  line 108  col 13   '_' is not defined.
+  line 109  col 17   '_' is not defined.
+  line 126  col 17   '_' is not defined.
+  line 128  col 21   '_' is not defined.
+  line 142  col 9    '_' is not defined.
+  line 146  col 9    '_' is not defined.
+  line 202  col 17   '_' is not defined.
+  line 203  col 21   '_' is not defined.
+  line 207  col 17   '_' is not defined.
+  line 208  col 21   '_' is not defined.
+  line 210  col 29   '_' is not defined.
+  line 219  col 17   '_' is not defined.
+  line 220  col 21   '_' is not defined.
+  line 224  col 17   '_' is not defined.
+  line 225  col 21   '_' is not defined.
+  line 227  col 29   '_' is not defined.
+  line 237  col 17   '_' is not defined.
+
+  ×  1 error
+  ‼  34 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\home\homeConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\correctiveMaintenance\home\homeController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 28  col 71  Expected '!==' and instead saw '!='.
+  line 53  col 95  Expected '===' and instead saw '=='.
+  line 58  col 63  Expected '!==' and instead saw '!='.
+  line 76  col 40  Expected '===' and instead saw '=='.
+  line 82  col 43  Expected '===' and instead saw '=='.
+  line 85  col 42  Expected '===' and instead saw '=='.
+  line 33  col 55  '_' is not defined.
+  line 52  col 17  '_' is not defined.
+  line 53  col 25  '_' is not defined.
+  line 73  col 17  '_' is not defined.
+  line 75  col 21  '_' is not defined.
+  line 81  col 50  '_' is not defined.
+  line 81  col 58  '_' is not defined.
+  line 84  col 49  '_' is not defined.
+  line 84  col 57  '_' is not defined.
+
+  ×  1 error
+  ‼  15 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\EquipmentActionRequired\EquipmentActionRequired.js
+  line 5    col 9   Missing "use strict" statement.
+  line 21   col 9   Missing "use strict" statement.
+  line 33   col 37  Expected '===' and instead saw '=='.
+  line 34   col 17  Expected '{' and instead saw 'self'.
+  line 36   col 17  Expected '{' and instead saw '$scope'.
+  line 43   col 30  Expected '===' and instead saw '=='.
+  line 46   col 39  Expected '===' and instead saw '=='.
+  line 47   col 43  Expected '===' and instead saw '=='.
+  line 57   col 39  Expected '!==' and instead saw '!='.
+  line 72   col 10  Missing semicolon.
+  line 77   col 39  Expected '===' and instead saw '=='.
+  line 78   col 35  Expected '===' and instead saw '=='.
+  line 82   col 43  Expected '===' and instead saw '=='.
+  line 86   col 30  Expected '===' and instead saw '=='.
+  line 102  col 10  Missing semicolon.
+  line 106  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  14 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\EquipmentInTransit\EquipmentInTransit.js
+  line 5    col 9   Missing "use strict" statement.
+  line 21   col 9   Missing "use strict" statement.
+  line 33   col 46  Expected '===' and instead saw '=='.
+  line 34   col 17  Expected '{' and instead saw 'self'.
+  line 36   col 17  Expected '{' and instead saw '$scope'.
+  line 43   col 30  Expected '===' and instead saw '=='.
+  line 46   col 39  Expected '===' and instead saw '=='.
+  line 47   col 43  Expected '===' and instead saw '=='.
+  line 57   col 39  Expected '!==' and instead saw '!='.
+  line 72   col 10  Missing semicolon.
+  line 77   col 39  Expected '===' and instead saw '=='.
+  line 78   col 35  Expected '===' and instead saw '=='.
+  line 82   col 43  Expected '===' and instead saw '=='.
+  line 86   col 30  Expected '===' and instead saw '=='.
+  line 102  col 10  Missing semicolon.
+  line 106  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  14 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\about\about.js
+  line 7  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\activeDirectory\activeDirectoryRepository.js
+  line 4   col 9   Missing "use strict" statement.
+  line 15  col 33  Missing semicolon.
+  line 19  col 28  Expected '!==' and instead saw '!='.
+  line 25  col 25  Expected '!==' and instead saw '!='.
+  line 32  col 10  Unnecessary semicolon.
+
+  ×  1 error
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\breeze-jasmine.spec.js
+  line 9   col 20  'breeze' is not defined.
+  line 10  col 5   'breeze' is not defined.
+  line 39  col 95  'breeze' is not defined.
+  line 39  col 37  '_' is not defined.
+
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\breeze-orderBy.js
+  line 23  col 29  '_' is not defined.
+
+  ‼  1 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\breeze-orderBy.spec.js
+  line 3    col 5   Missing "use strict" statement.
+  line 21   col 41  'customEqualityTesters' is defined but never used.
+  line 21   col 35  'util' is defined but never used.
+  line 142  col 33  'collection' is defined but never used.
+  line 141  col 37  '$filter' is defined but never used.
+
+  ×  1 error
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\breeze-service.js
+  line 432  col 31  Expected '!==' and instead saw '!='.
+  line 53   col 13  '_' is not defined.
+  line 160  col 17  '_' is not defined.
+  line 181  col 27  '_' is not defined.
+  line 199  col 17  '_' is not defined.
+  line 282  col 25  '_' is not defined.
+
+  ‼  6 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\breeze-service.spec.js
+  line 29  col 18  '_' is not defined.
+
+  ‼  1 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\entity-manager-factory.spec.js
+  line 115  col 72  'breeze' is not defined.
+  line 123  col 34  '_' is not defined.
+
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\enums.js
+  line 13  col 13  '_' is not defined.
+
+  ‼  1 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\breeze\validation-service.js
+  line 21  col 25  'breeze' is not defined.
+  line 29  col 13  'breeze' is not defined.
+  line 31  col 28  'breeze' is not defined.
+  line 36  col 13  'breeze' is not defined.
+  line 49  col 28  '_' is not defined.
+
+  ‼  5 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\calibratedStandardManagement\calibratedStandardManagement.js
+  line 5   col 9  Missing "use strict" statement.
+  line 21  col 9  Missing "use strict" statement.
+  line 22  col 9  '_' is not defined.
+
+  ×  2 errors
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlCalibrationSetReading\controlCalibrationSetReading.js
+  line 5   col 9   Missing "use strict" statement.
+  line 30  col 9   Missing "use strict" statement.
+  line 39  col 38  Expected '!==' and instead saw '!='.
+  line 65  col 10  Missing semicolon.
+  line 70  col 10  Missing semicolon.
+  line 29  col 99  'logger' is defined but never used.
+
+  ×  2 errors
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\corrrectiveMaintenanceRetrieval\correctiveMaintenanceRetrieval.js
+  line 5    col 9   Missing "use strict" statement.
+  line 19   col 9   Missing "use strict" statement.
+  line 31   col 37  Expected '===' and instead saw '=='.
+  line 32   col 17  Expected '{' and instead saw 'self'.
+  line 34   col 17  Expected '{' and instead saw '$scope'.
+  line 41   col 30  Expected '===' and instead saw '=='.
+  line 45   col 39  Expected '===' and instead saw '=='.
+  line 46   col 43  Expected '===' and instead saw '=='.
+  line 56   col 39  Expected '!==' and instead saw '!='.
+  line 73   col 10  Missing semicolon.
+  line 78   col 39  Expected '===' and instead saw '=='.
+  line 79   col 35  Expected '===' and instead saw '=='.
+  line 83   col 43  Expected '===' and instead saw '=='.
+  line 87   col 30  Expected '===' and instead saw '=='.
+  line 105  col 10  Missing semicolon.
+  line 110  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  14 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\currentUser\currentUser.js
+  line 5   col 9   Missing "use strict" statement.
+  line 16  col 9   Missing "use strict" statement.
+  line 35  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipmentInfo\equipmentInfo.js
+  line 5  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipment\equipmentRepository.js
+  line 3   col 9   Missing "use strict" statement.
+  line 17  col 10  Unnecessary semicolon.
+  line 31  col 47  Expected '===' and instead saw '=='.
+  line 31  col 73  Expected '===' and instead saw '=='.
+  line 33  col 97  Missing semicolon.
+  line 36  col 47  Expected '===' and instead saw '=='.
+  line 36  col 77  Expected '===' and instead saw '=='.
+  line 62  col 47  Expected '===' and instead saw '=='.
+  line 62  col 73  Expected '===' and instead saw '=='.
+  line 64  col 97  Missing semicolon.
+  line 67  col 47  Expected '===' and instead saw '=='.
+  line 67  col 77  Expected '===' and instead saw '=='.
+
+  ×  1 error
+  ‼  11 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipment\equipmentTypeRepository.js
+  line 3    col 9    Missing "use strict" statement.
+  line 25   col 10   Unnecessary semicolon.
+  line 41   col 108  Missing semicolon.
+  line 53   col 10   Unnecessary semicolon.
+  line 59   col 10   Unnecessary semicolon.
+  line 63   col 70   Missing semicolon.
+  line 72   col 70   Missing semicolon.
+  line 74   col 29   Missing semicolon.
+  line 87   col 21   'predicate' is already defined.
+  line 91   col 21   'predicate' is already defined.
+  line 96   col 21   'predicate' is already defined.
+  line 100  col 21   'predicate' is already defined.
+  line 104  col 21   'predicate' is already defined.
+  line 108  col 21   'predicate' is already defined.
+  line 130  col 10   Unnecessary semicolon.
+  line 136  col 10   Unnecessary semicolon.
+  line 142  col 10   Unnecessary semicolon.
+  line 147  col 10   Unnecessary semicolon.
+  line 4    col 13   'manager' is defined but never used.
+  line 113  col 13   '_' is not defined.
+
+  ×  1 error
+  ‼  19 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipmentSearch\equipmentSearch.js
+  line 5   col 9   Missing "use strict" statement.
+  line 30  col 9   Missing "use strict" statement.
+  line 55  col 10  Missing semicolon.
+  line 76  col 97  Expected '===' and instead saw '=='.
+  line 80  col 57  Expected '!==' and instead saw '!='.
+  line 97  col 61  Expected '!==' and instead saw '!='.
+  line 30  col 13  'self' is defined but never used.
+
+  ×  2 errors
+  ‼  5 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipmentSearch\equipmentSearchService.js
+  line 2    col 5    Missing "use strict" statement.
+  line 34   col 6    Missing semicolon.
+  line 38   col 6    Missing semicolon.
+  line 44   col 41   Expected '===' and instead saw '=='.
+  line 50   col 44   Expected '===' and instead saw '=='.
+  line 41   col 13   'manufacturerList' is defined but never used.
+  line 66   col 40   Expected '===' and instead saw '=='.
+  line 72   col 43   Expected '===' and instead saw '=='.
+  line 63   col 13   'equipmentTypeList' is defined but never used.
+  line 90   col 6    Missing semicolon.
+  line 94   col 6    Missing semicolon.
+  line 105  col 37   Expected '!==' and instead saw '!='.
+  line 108  col 29   Missing semicolon.
+  line 113  col 6    Missing semicolon.
+  line 121  col 6    Missing semicolon.
+  line 125  col 6    Missing semicolon.
+  line 136  col 6    Missing semicolon.
+  line 143  col 6    Missing semicolon.
+  line 160  col 17   'year' is already defined.
+  line 161  col 17   'month' is already defined.
+  line 162  col 17   'date' is already defined.
+  line 170  col 17   'year' is already defined.
+  line 171  col 17   'month' is already defined.
+  line 172  col 17   'date' is already defined.
+  line 182  col 36   Expected '!==' and instead saw '!='.
+  line 1    col 197  'logger' is defined but never used.
+  line 43   col 9    '_' is not defined.
+  line 49   col 54   '_' is not defined.
+  line 53   col 34   '_' is not defined.
+  line 55   col 37   '_' is not defined.
+  line 59   col 16   '_' is not defined.
+  line 65   col 9    '_' is not defined.
+  line 71   col 54   '_' is not defined.
+  line 75   col 31   '_' is not defined.
+  line 77   col 38   '_' is not defined.
+  line 81   col 16   '_' is not defined.
+  line 184  col 17   '_' is not defined.
+  line 196  col 21   '_' is not defined.
+  line 205  col 21   '_' is not defined.
+  line 214  col 21   '_' is not defined.
+  line 153  col 31   'moment' is not defined.
+  line 163  col 37   'moment' is not defined.
+  line 173  col 33   'moment' is not defined.
+
+  ×  1 error
+  ‼  42 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\esignature\esignatureRepository.js
+  line 3   col 9   Missing "use strict" statement.
+  line 18  col 10  Unnecessary semicolon.
+  line 22  col 10  Unnecessary semicolon.
+
+  ×  1 error
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\hemataStatReadings\hemataStatReadings.js
+  line 5   col 9   Missing "use strict" statement.
+  line 29  col 9   Missing "use strict" statement.
+  line 31  col 10  Missing semicolon.
+  line 37  col 10  Missing semicolon.
+  line 27  col 57  'logger' is defined but never used.
+
+  ×  2 errors
+  ‼  3 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\equipmentSearchParameters\equipmentSearchParameters.js
+  line 5    col 9    Missing "use strict" statement.
+  line 26   col 9    Missing "use strict" statement.
+  line 53   col 17   Misleading line break before '?'; readers may interpret this as an expression boundary.
+  line 62   col 10   Missing semicolon.
+  line 82   col 43   Expected '===' and instead saw '=='.
+  line 83   col 101  Expected '===' and instead saw '=='.
+  line 88   col 97   Expected '===' and instead saw '=='.
+  line 92   col 57   Expected '!==' and instead saw '!='.
+  line 100  col 40   ['CompletedDateStart'] is better written in dot notation.
+  line 101  col 40   ['CompletedDateEnd'] is better written in dot notation.
+  line 102  col 40   ['StartDateStart'] is better written in dot notation.
+  line 103  col 40   ['StartDateEnd'] is better written in dot notation.
+  line 104  col 40   ['DueDateStart'] is better written in dot notation.
+  line 105  col 40   ['DueDateEnd'] is better written in dot notation.
+  line 137  col 61   Expected '!==' and instead saw '!='.
+  line 26   col 13   'self' is defined but never used.
+  line 67   col 13   'window' is not defined.
+  line 68   col 13   'document' is not defined.
+
+  ×  2 errors
+  ‼  16 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\logger\logger_test.spec.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\lastCalibrationDetails\lastCalibrationDetails.js
+  line 5    col 9    Missing "use strict" statement.
+  line 21   col 9    Missing "use strict" statement.
+  line 24   col 32   Expected '!==' and instead saw '!='.
+  line 54   col 55   Expected '!==' and instead saw '!='.
+  line 55   col 49   'start' is defined but never used.
+  line 56   col 49   'end' is defined but never used.
+  line 53   col 123  Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (moment, self, readings, _, $scope, set)
+  line 79   col 27   Expected a 'break' statement before 'default'.
+  line 93   col 24   Expected '===' and instead saw '=='.
+  line 94   col 41   Expected '===' and instead saw '=='.
+  line 100  col 45   Expected '===' and instead saw '=='.
+  line 113  col 29   Expected '===' and instead saw '=='.
+  line 114  col 41   Expected '===' and instead saw '=='.
+  line 120  col 45   Expected '===' and instead saw '=='.
+  line 41   col 29   '_' is not defined.
+  line 49   col 29   '_' is not defined.
+  line 70   col 119  '_' is not defined.
+  line 70   col 130  '_' is not defined.
+  line 78   col 43   '_' is not defined.
+  line 55   col 57   'moment' is not defined.
+  line 56   col 55   'moment' is not defined.
+
+  ×  2 errors
+  ‼  19 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\lastCalibrationDetails\thirdPartyAttachmentConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\maintenanceStepRetrieval\maintenanceStepRetrieval.js
+  line 5   col 9   Missing "use strict" statement.
+  line 19  col 9   Missing "use strict" statement.
+  line 22  col 10  Missing semicolon.
+  line 27  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\navbar\navbar.js
+  line 5   col 9   Missing "use strict" statement.
+  line 16  col 9   Missing "use strict" statement.
+  line 24  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\navbar\navbarService.js
+  line 4   col 9   Missing "use strict" statement.
+  line 22  col 25  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\modals\modalService.js
+  line 22  col 14  Missing semicolon.
+
+  ‼  1 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\nextDueDate\nextDueDateService.js
+  line 4    col 9   Missing "use strict" statement.
+  line 64   col 25  'dayOfWeek' is already defined.
+  line 109  col 26  Expected '!==' and instead saw '!='.
+  line 78   col 25  'year' is defined but never used.
+  line 140  col 26  Expected '!==' and instead saw '!='.
+  line 149  col 21  'focalDate' is already defined.
+  line 153  col 17  'focalDate' used out of scope.
+  line 156  col 43  'focalDate' used out of scope.
+  line 14   col 13  '_' is not defined.
+  line 80   col 33  'moment' is not defined.
+  line 83   col 33  'moment' is not defined.
+  line 86   col 33  'moment' is not defined.
+  line 89   col 33  'moment' is not defined.
+  line 118  col 31  'moment' is not defined.
+  line 123  col 27  'moment' is not defined.
+  line 124  col 34  'moment' is not defined.
+  line 125  col 29  'moment' is not defined.
+  line 136  col 27  'moment' is not defined.
+  line 141  col 27  'moment' is not defined.
+  line 143  col 34  'moment' is not defined.
+  line 147  col 33  'moment' is not defined.
+  line 149  col 33  'moment' is not defined.
+
+  ×  1 error
+  ‼  21 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\outOfToleranceRetrieval\outOfToleranceRetrieval.js
+  line 5    col 9   Missing "use strict" statement.
+  line 19   col 9   Missing "use strict" statement.
+  line 22   col 39  Expected '===' and instead saw '=='.
+  line 37   col 37  Expected '===' and instead saw '=='.
+  line 38   col 17  Expected '{' and instead saw 'self'.
+  line 40   col 17  Expected '{' and instead saw '$scope'.
+  line 48   col 34  Expected '===' and instead saw '=='.
+  line 51   col 43  Expected '===' and instead saw '=='.
+  line 52   col 47  Expected '===' and instead saw '=='.
+  line 62   col 43  Expected '!==' and instead saw '!='.
+  line 79   col 14  Missing semicolon.
+  line 84   col 34  Expected '===' and instead saw '=='.
+  line 87   col 43  Expected '===' and instead saw '=='.
+  line 88   col 47  Expected '===' and instead saw '=='.
+  line 98   col 43  Expected '!==' and instead saw '!='.
+  line 115  col 14  Missing semicolon.
+  line 122  col 30  Expected '===' and instead saw '=='.
+  line 125  col 39  Expected '===' and instead saw '=='.
+  line 126  col 35  Expected '===' and instead saw '=='.
+  line 130  col 43  Expected '===' and instead saw '=='.
+  line 147  col 10  Missing semicolon.
+  line 151  col 10  Missing semicolon.
+  line 21   col 9   '_' is not defined.
+
+  ×  2 errors
+  ‼  21 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\partManagement\partManagement.js
+  line 5   col 9  Missing "use strict" statement.
+  line 21  col 9  Missing "use strict" statement.
+  line 24  col 9  '_' is not defined.
+
+  ×  2 errors
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\plasmapheresisReadingGroups\plasmapheresisReadingGroups.js
+  line 5   col 9   Missing "use strict" statement.
+  line 25  col 9   Missing "use strict" statement.
+  line 30  col 10  Missing semicolon.
+  line 35  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\preventiveMaintenanceFrequency\preventiveMaintenanceFrequency.js
+  line 5    col 9   Missing "use strict" statement.
+  line 31   col 9   Missing "use strict" statement.
+  line 53   col 36  Expected '!==' and instead saw '!='.
+  line 55   col 40  Expected '!==' and instead saw '!='.
+  line 55   col 64  Expected '===' and instead saw '=='.
+  line 62   col 40  Expected '!==' and instead saw '!='.
+  line 62   col 64  Expected '===' and instead saw '=='.
+  line 69   col 10  Missing semicolon.
+  line 84   col 39  Expected '!==' and instead saw '!='.
+  line 84   col 82  Expected '!==' and instead saw '!='.
+  line 113  col 10  Missing semicolon.
+  line 75   col 23  'moment' is not defined.
+
+  ×  2 errors
+  ‼  10 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\plasmapheresisReadings\plasmapheresisReadings.js
+  line 5    col 9    Missing "use strict" statement.
+  line 26   col 9    Missing "use strict" statement.
+  line 35   col 10   Missing semicolon.
+  line 46   col 10   Missing semicolon.
+  line 50   col 10   Missing semicolon.
+  line 53   col 109  Missing semicolon.
+  line 57   col 10   Missing semicolon.
+  line 64   col 10   Missing semicolon.
+  line 69   col 10   Missing semicolon.
+  line 73   col 10   Missing semicolon.
+  line 82   col 62   Expected '===' and instead saw '=='.
+  line 82   col 121  Expected '!==' and instead saw '!='.
+  line 89   col 42   Expected '===' and instead saw '=='.
+  line 113  col 10   Missing semicolon.
+  line 123  col 39   Expected '!==' and instead saw '!='.
+  line 131  col 10   Missing semicolon.
+  line 138  col 10   Missing semicolon.
+  line 147  col 10   Missing semicolon.
+  line 25   col 132  '$window' is defined but never used.
+  line 40   col 30   '_' is not defined.
+  line 61   col 47   '_' is not defined.
+  line 103  col 60   '_' is not defined.
+  line 118  col 44   '_' is not defined.
+  line 130  col 13   'window' is not defined.
+  line 130  col 32   'document' is not defined.
+
+  ×  2 errors
+  ‼  23 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\plasmapheresisReadings\plasmapheresisReadingsWrapper.js
+  line 5    col 9   Missing "use strict" statement.
+  line 23   col 9   Missing "use strict" statement.
+  line 31   col 10  Missing semicolon.
+  line 40   col 10  Missing semicolon.
+  line 48   col 10  Missing semicolon.
+  line 73   col 72  Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (i)
+  line 87   col 10  Missing semicolon.
+  line 91   col 10  Missing semicolon.
+  line 95   col 10  Missing semicolon.
+  line 99   col 10  Missing semicolon.
+  line 108  col 10  Missing semicolon.
+  line 112  col 10  Missing semicolon.
+  line 126  col 10  Missing semicolon.
+  line 140  col 10  Missing semicolon.
+  line 73   col 42  '_' is not defined.
+
+  ×  2 errors
+  ‼  13 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\preventiveMaintenanceRetrieval\preventiveMaintenanceRetrieval.js
+  line 5   col 9   Missing "use strict" statement.
+  line 21  col 9   Missing "use strict" statement.
+  line 43  col 10  Missing semicolon.
+  line 61  col 10  Missing semicolon.
+  line 73  col 10  Missing semicolon.
+  line 49  col 23  'moment' is not defined.
+
+  ×  2 errors
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\previousPreventiveMaintenanceAttachment\previousPreventiveMaintenanceAttachment.js
+  line 5  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\privacyStatement\privacyStatement.js
+  line 7  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\recordDateEdit\recordDateEdit.js
+  line 5    col 9   Missing "use strict" statement.
+  line 21   col 9   Missing "use strict" statement.
+  line 53   col 10  Missing semicolon.
+  line 59   col 10  Missing semicolon.
+  line 65   col 10  Missing semicolon.
+  line 72   col 10  Missing semicolon.
+  line 77   col 48  Missing semicolon.
+  line 78   col 10  Missing semicolon.
+  line 82   col 10  Missing semicolon.
+  line 86   col 10  Missing semicolon.
+  line 90   col 10  Missing semicolon.
+  line 94   col 10  Missing semicolon.
+  line 98   col 10  Missing semicolon.
+  line 102  col 10  Missing semicolon.
+  line 128  col 10  Missing semicolon.
+  line 137  col 10  Missing semicolon.
+  line 27   col 30  'Map' is not defined.
+  line 29   col 31  'Map' is not defined.
+  line 36   col 17  '_' is not defined.
+
+  ×  2 errors
+  ‼  17 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\recordDisplay\recordDisplay.js
+  line 5  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\refractometerReadings\refractometerReadings.js
+  line 5    col 9   Missing "use strict" statement.
+  line 40   col 9   Missing "use strict" statement.
+  line 52   col 10  Missing semicolon.
+  line 54   col 41  Expected '!==' and instead saw '!='.
+  line 58   col 42  Expected '!==' and instead saw '!='.
+  line 71   col 10  Missing semicolon.
+  line 81   col 10  Missing semicolon.
+  line 103  col 10  Missing semicolon.
+  line 108  col 10  Missing semicolon.
+  line 112  col 10  Missing semicolon.
+  line 39   col 82  'logger' is defined but never used.
+  line 46   col 9   'defaultComment' is not defined.
+  line 47   col 66  'defaultComment' is not defined.
+  line 48   col 68  'defaultComment' is not defined.
+
+  ×  2 errors
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\reportFilter\reportFilter.js
+  line 5    col 9    Missing "use strict" statement.
+  line 20   col 9    Missing "use strict" statement.
+  line 50   col 24   ['StartDateStart'] is better written in dot notation.
+  line 51   col 24   ['StartDateEnd'] is better written in dot notation.
+  line 52   col 24   ['DueDateStart'] is better written in dot notation.
+  line 53   col 24   ['DueDateEnd'] is better written in dot notation.
+  line 54   col 24   ['CompletedDateStart'] is better written in dot notation.
+  line 55   col 24   ['CompletedDateEnd'] is better written in dot notation.
+  line 56   col 24   ['includeFutureRecords'] is better written in dot notation.
+  line 57   col 24   ['includeDetails'] is better written in dot notation.
+  line 98   col 25   ['CompletedDateStart'] is better written in dot notation.
+  line 99   col 25   ['CompletedDateEnd'] is better written in dot notation.
+  line 100  col 25   ['StartDateStart'] is better written in dot notation.
+  line 101  col 25   ['StartDateEnd'] is better written in dot notation.
+  line 102  col 25   ['DueDateStart'] is better written in dot notation.
+  line 103  col 25   ['DueDateEnd'] is better written in dot notation.
+  line 110  col 10   Missing semicolon.
+  line 115  col 10   Missing semicolon.
+  line 118  col 28   ['EquipmentTypeId'] is better written in dot notation.
+  line 119  col 28   ['ManufacturerId'] is better written in dot notation.
+  line 120  col 28   ['RecordID'] is better written in dot notation.
+  line 121  col 28   ['SerialNumber'] is better written in dot notation.
+  line 122  col 28   ['RecordStatus'] is better written in dot notation.
+  line 123  col 28   ['Status'] is better written in dot notation.
+  line 124  col 28   ['Frequency'] is better written in dot notation.
+  line 125  col 28   ['RecordType'] is better written in dot notation.
+  line 126  col 28   ['sortCriteria'] is better written in dot notation.
+  line 127  col 28   ['direction'] is better written in dot notation.
+  line 129  col 28   ['StartDateStart'] is better written in dot notation.
+  line 129  col 65   ['StartDateStart'] is better written in dot notation.
+  line 129  col 123  ['StartDateStart'] is better written in dot notation.
+  line 130  col 28   ['DueDateStart'] is better written in dot notation.
+  line 130  col 63   ['DueDateStart'] is better written in dot notation.
+  line 130  col 119  ['DueDateStart'] is better written in dot notation.
+  line 131  col 28   ['CompletedDateStart'] is better written in dot notation.
+  line 131  col 69   ['CompletedDateStart'] is better written in dot notation.
+  line 131  col 131  ['CompletedDateStart'] is better written in dot notation.
+  line 132  col 28   ['StartDateEnd'] is better written in dot notation.
+  line 132  col 63   ['StartDateEnd'] is better written in dot notation.
+  line 132  col 117  ['StartDateEnd'] is better written in dot notation.
+  line 133  col 28   ['DueDateEnd'] is better written in dot notation.
+  line 133  col 61   ['DueDateEnd'] is better written in dot notation.
+  line 133  col 113  ['DueDateEnd'] is better written in dot notation.
+  line 134  col 28   ['CompletedDateEnd'] is better written in dot notation.
+  line 134  col 67   ['CompletedDateEnd'] is better written in dot notation.
+  line 134  col 125  ['CompletedDateEnd'] is better written in dot notation.
+  line 150  col 21   Unreachable 'break' after 'return'.
+  line 153  col 21   Unreachable 'break' after 'return'.
+  line 157  col 10   Missing semicolon.
+  line 169  col 28   ['includeFutureRecords'] is better written in dot notation.
+  line 169  col 28   Too many errors. (93% scanned).
+
+  ×  3 errors
+  ‼  48 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\reportSort\reportSort.js
+  line 5   col 9   Missing "use strict" statement.
+  line 19  col 9   Missing "use strict" statement.
+  line 23  col 10  Missing semicolon.
+  line 27  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\reporting\reportDataService.js
+  line 3   col 9   Missing "use strict" statement.
+  line 15  col 10  Unnecessary semicolon.
+  line 25  col 10  Unnecessary semicolon.
+  line 28  col 26  Expected '{' and instead saw 'return'.
+  line 31  col 29  Expected '===' and instead saw '=='.
+  line 31  col 46  Expected '===' and instead saw '=='.
+  line 31  col 58  Expected '{' and instead saw 'return'.
+  line 41  col 47  Expected '===' and instead saw '=='.
+  line 42  col 10  Unnecessary semicolon.
+  line 2   col 45  '$http' is defined but never used.
+
+  ×  1 error
+  ‼  9 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\statusSelect\statusSelect.js
+  line 5   col 9   Missing "use strict" statement.
+  line 19  col 9   Missing "use strict" statement.
+  line 22  col 10  Missing semicolon.
+  line 36  col 31  Expected '===' and instead saw '=='.
+  line 42  col 10  Missing semicolon.
+  line 46  col 10  Missing semicolon.
+  line 19  col 9   'self' is not defined.
+  line 26  col 35  'self' is not defined.
+
+  ×  2 errors
+  ‼  6 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\ui\ui_test.spec.js
+  line 13  col 17  '_' is not defined.
+  line 19  col 13  '_' is not defined.
+  line 66  col 13  '_' is not defined.
+  line 67  col 31  '_' is not defined.
+
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\userEntry\userEntry.js
+  line 5    col 9   Missing "use strict" statement.
+  line 22   col 9   Missing "use strict" statement.
+  line 92   col 10  Missing semicolon.
+  line 101  col 52  Expected '!==' and instead saw '!='.
+  line 22   col 13  'logicToggle' is defined but never used.
+
+  ×  2 errors
+  ‼  3 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\controlCalibrationVerificationValidation.js
+  line 3  col 5  Missing "use strict" statement.
+  line 3  col 9  'validators' is defined but never used.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\controlValidation.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\correctiveMaintenanceValidation.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\equipmentValidation.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\outOfToleranceValidation.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\preventiveMaintenanceValidation.js
+  line 5   col 5  Missing "use strict" statement.
+  line 13  col 2  Unnecessary semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\validations\refractometerValidation.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\verificationDateEdit\verificationDateEdit.js
+  line 5    col 9    Missing "use strict" statement.
+  line 21   col 9    Missing "use strict" statement.
+  line 39   col 44   Missing semicolon.
+  line 42   col 25   Missing semicolon.
+  line 44   col 10   Missing semicolon.
+  line 51   col 10   Missing semicolon.
+  line 57   col 10   Missing semicolon.
+  line 63   col 107  Missing semicolon.
+  line 66   col 79   Expected an assignment or function call and instead saw an expression.
+  line 76   col 10   Missing semicolon.
+  line 83   col 10   Missing semicolon.
+  line 90   col 10   Missing semicolon.
+  line 97   col 10   Missing semicolon.
+  line 103  col 10   Missing semicolon.
+  line 107  col 10   Missing semicolon.
+  line 111  col 10   Missing semicolon.
+  line 115  col 10   Missing semicolon.
+  line 119  col 10   Missing semicolon.
+  line 123  col 10   Missing semicolon.
+  line 148  col 10   Missing semicolon.
+  line 157  col 10   Missing semicolon.
+  line 30   col 31   'Map' is not defined.
+  line 31   col 30   'Map' is not defined.
+  line 60   col 13   '_' is not defined.
+  line 63   col 30   '_' is not defined.
+
+  ×  2 errors
+  ‼  23 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\verificationProbeReadings\verificationProbeReadings.js
+  line 5    col 9   Missing "use strict" statement.
+  line 22   col 9   Missing "use strict" statement.
+  line 33   col 39  Expected '===' and instead saw '=='.
+  line 48   col 32  Expected '===' and instead saw '=='.
+  line 56   col 39  Expected '===' and instead saw '=='.
+  line 64   col 39  Expected '===' and instead saw '=='.
+  line 86   col 55  Expected '!==' and instead saw '!='.
+  line 89   col 53  Expected '!==' and instead saw '!='.
+  line 114  col 10  Missing semicolon.
+  line 126  col 33  Expected '===' and instead saw '=='.
+  line 163  col 10  Missing semicolon.
+  line 27   col 9   '_' is not defined.
+  line 166  col 13  '_' is not defined.
+  line 80   col 30  '$' is not defined.
+  line 81   col 28  '$' is not defined.
+  line 100  col 33  'moment' is not defined.
+  line 101  col 31  'moment' is not defined.
+
+  ×  2 errors
+  ‼  15 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\verificationRetrieval\verificationRetrieval.js
+  line 5    col 9   Missing "use strict" statement.
+  line 19   col 9   Missing "use strict" statement.
+  line 30   col 37  Expected '===' and instead saw '=='.
+  line 31   col 17  Expected '{' and instead saw 'self'.
+  line 33   col 17  Expected '{' and instead saw '$scope'.
+  line 40   col 30  Expected '===' and instead saw '=='.
+  line 43   col 39  Expected '===' and instead saw '=='.
+  line 44   col 43  Expected '===' and instead saw '=='.
+  line 54   col 39  Expected '!==' and instead saw '!='.
+  line 71   col 10  Missing semicolon.
+  line 76   col 39  Expected '===' and instead saw '=='.
+  line 77   col 35  Expected '===' and instead saw '=='.
+  line 81   col 43  Expected '===' and instead saw '=='.
+  line 86   col 30  Expected '===' and instead saw '=='.
+  line 105  col 10  Missing semicolon.
+  line 110  col 10  Missing semicolon.
+  line 118  col 23  'moment' is not defined.
+
+  ×  2 errors
+  ‼  15 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\webshimRefresh\webshimRefresh.js
+  line 5   col 9   Missing "use strict" statement.
+  line 11  col 21  '$' is not defined.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\createDetail\createDetailConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\createDetail\createDetailController.js
+  line 5    col 9    Missing "use strict" statement.
+  line 87   col 10   Missing semicolon.
+  line 91   col 111  Expected '!==' and instead saw '!='.
+  line 152  col 110  Missing semicolon.
+  line 153  col 108  Missing semicolon.
+  line 3    col 133  '$rootScope' is defined but never used.
+  line 113  col 13   '_' is not defined.
+  line 138  col 17   '_' is not defined.
+  line 126  col 31   'moment' is not defined.
+  line 129  col 28   'moment' is not defined.
+
+  ×  1 error
+  ‼  9 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\detail\detailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 18  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\detail\detailController.js
+  line 5    col 9   Missing "use strict" statement.
+  line 58   col 42  'event' is defined but never used.
+  line 90   col 19  Missing semicolon.
+  line 127  col 63  'config' is defined but never used.
+  line 127  col 54  'headers' is defined but never used.
+  line 127  col 46  'status' is defined but never used.
+  line 127  col 40  'data' is defined but never used.
+  line 127  col 30  Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (self)
+  line 39   col 9   '_' is not defined.
+  line 52   col 9   '_' is not defined.
+  line 63   col 13  '_' is not defined.
+  line 76   col 13  '_' is not defined.
+  line 77   col 17  '_' is not defined.
+  line 81   col 13  '_' is not defined.
+  line 82   col 17  '_' is not defined.
+  line 84   col 25  '_' is not defined.
+  line 94   col 13  '_' is not defined.
+
+  ×  1 error
+  ‼  16 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\home\homeConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\preventiveMaintenance\home\homeController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 51  col 71  Expected '!==' and instead saw '!='.
+  line 66  col 40  Expected '===' and instead saw '=='.
+  line 72  col 43  Expected '===' and instead saw '=='.
+  line 75  col 42  Expected '===' and instead saw '=='.
+  line 17  col 13  '_' is not defined.
+  line 56  col 55  '_' is not defined.
+  line 63  col 17  '_' is not defined.
+  line 65  col 21  '_' is not defined.
+  line 71  col 50  '_' is not defined.
+  line 71  col 58  '_' is not defined.
+  line 74  col 49  '_' is not defined.
+  line 74  col 57  '_' is not defined.
+
+  ×  1 error
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\audit\auditConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\audit\auditController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 32  col 40  ['CompletedDateStart'] is better written in dot notation.
+  line 33  col 40  ['CompletedDateEnd'] is better written in dot notation.
+  line 34  col 40  ['StartDateStart'] is better written in dot notation.
+  line 35  col 40  ['StartDateEnd'] is better written in dot notation.
+  line 36  col 40  ['DueDateStart'] is better written in dot notation.
+  line 37  col 40  ['DueDateEnd'] is better written in dot notation.
+  line 50  col 77  Expected '!==' and instead saw '!='.
+  line 87  col 35  Missing semicolon.
+  line 90  col 10  Missing semicolon.
+  line 55  col 61  '_' is not defined.
+
+  ×  1 error
+  ‼  10 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\equipment\equipmentConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\equipment\equipmentController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\history\historyConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\history\historyController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\home\homeConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\home\homeController.js
+  line 3  col 9   Missing "use strict" statement.
+  line 3  col 13  'self' is defined but never used.
+  line 2  col 73  '$state' is defined but never used.
+
+  ×  1 error
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\outOfTolerance\outOfToleranceConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\outOfTolerance\outOfToleranceController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\pastDueException\pastDueExceptionConfig.js
+  line 3  col 5  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\pastDueException\pastDueExceptionController.js
+  line 3  col 9   Missing "use strict" statement.
+  line 5  col 46  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\verifications\verificationsConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\reporting\verifications\verificationsController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 12  col 66  Missing semicolon.
+  line 33  col 40  ['CompletedDateStart'] is better written in dot notation.
+  line 34  col 40  ['CompletedDateEnd'] is better written in dot notation.
+  line 35  col 40  ['StartDateStart'] is better written in dot notation.
+  line 36  col 40  ['StartDateEnd'] is better written in dot notation.
+  line 37  col 40  ['DueDateStart'] is better written in dot notation.
+  line 38  col 40  ['DueDateEnd'] is better written in dot notation.
+  line 52  col 77  Expected '!==' and instead saw '!='.
+  line 88  col 39  The array literal notation [] is preferable.
+  line 89  col 23  ['id'] is better written in dot notation.
+  line 12  col 13  'defaultStatus' is defined but never used.
+  line 57  col 61  '_' is not defined.
+
+  ×  1 error
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\createDetail\createDetailConfig.js
+  line 3  col 13  Missing "use strict" statement.
+  line 2  col 49  'SecurityRoles' is defined but never used.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\createDetail\createDetailController.js
+  line 3   col 9    Missing "use strict" statement.
+  line 37  col 103  Expected '===' and instead saw '=='.
+  line 58  col 110  Expected '===' and instead saw '=='.
+  line 64  col 10   Missing semicolon.
+  line 69  col 123  Expected '===' and instead saw '=='.
+  line 74  col 10   Missing semicolon.
+  line 83  col 41   Expected '===' and instead saw '=='.
+  line 36  col 9    '_' is not defined.
+  line 37  col 17   '_' is not defined.
+  line 43  col 9    '_' is not defined.
+  line 56  col 13   '_' is not defined.
+  line 58  col 25   '_' is not defined.
+  line 68  col 13   '_' is not defined.
+
+  ×  1 error
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\detail\detailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 18  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\detail\detailController.js
+  line 4    col 9    Missing "use strict" statement.
+  line 27   col 42   'event' is defined but never used.
+  line 33   col 117  Expected '===' and instead saw '=='.
+  line 41   col 66   Expected '===' and instead saw '=='.
+  line 175  col 41   Expected '===' and instead saw '=='.
+  line 217  col 10   Missing semicolon.
+  line 74   col 13   '_' is not defined.
+  line 75   col 17   '_' is not defined.
+  line 92   col 17   '_' is not defined.
+  line 94   col 21   '_' is not defined.
+  line 124  col 17   '_' is not defined.
+  line 125  col 21   '_' is not defined.
+  line 134  col 13   '_' is not defined.
+  line 151  col 13   '_' is not defined.
+  line 138  col 31   'moment' is not defined.
+  line 176  col 27   'moment' is not defined.
+  line 186  col 23   'moment' is not defined.
+
+  ×  1 error
+  ‼  16 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\home\homeConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\equipmentManagement\home\homeController.js
+  line 3   col 9   Missing "use strict" statement.
+  line 25  col 71  Expected '!==' and instead saw '!='.
+  line 50  col 40  Expected '===' and instead saw '=='.
+  line 56  col 43  Expected '===' and instead saw '=='.
+  line 59  col 42  Expected '===' and instead saw '=='.
+  line 30  col 55  '_' is not defined.
+  line 47  col 17  '_' is not defined.
+  line 49  col 21  '_' is not defined.
+  line 55  col 50  '_' is not defined.
+  line 55  col 58  '_' is not defined.
+  line 58  col 49  '_' is not defined.
+  line 58  col 57  '_' is not defined.
+
+  ×  1 error
+  ‼  11 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\controlCalibrationDetail\controlCalibrationDetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 14  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\controlCalibrationDetail\controlCalibrationDetailController.js
+  line 4    col 9    Missing "use strict" statement.
+  line 13   col 10   Missing semicolon.
+  line 40   col 17   'index' is already defined.
+  line 69   col 42   'event' is defined but never used.
+  line 77   col 10   Missing semicolon.
+  line 79   col 48   Expected '!==' and instead saw '!='.
+  line 85   col 49   Expected '!==' and instead saw '!='.
+  line 107  col 64   Expected '!==' and instead saw '!='.
+  line 165  col 10   Missing semicolon.
+  line 174  col 10   Missing semicolon.
+  line 197  col 10   Missing semicolon.
+  line 214  col 10   Missing semicolon.
+  line 219  col 71   Expected '===' and instead saw '=='.
+  line 224  col 175  Expected '!==' and instead saw '!='.
+  line 226  col 178  Expected '!==' and instead saw '!='.
+  line 253  col 10   Missing semicolon.
+  line 269  col 10   Missing semicolon.
+  line 275  col 83   Expected '===' and instead saw '=='.
+  line 279  col 10   Missing semicolon.
+  line 288  col 10   Missing semicolon.
+  line 292  col 10   Missing semicolon.
+  line 299  col 10   Missing semicolon.
+  line 45   col 9    'index' used out of scope.
+  line 46   col 34   'index' used out of scope.
+  line 163  col 23   'moment' is not defined.
+
+  ×  1 error
+  ‼  24 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createControlCalibration\createControlCalibrationConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createControlCalibration\createControlCalibrationController.js
+  line 3    col 9    Missing "use strict" statement.
+  line 47   col 32   Expected '!==' and instead saw '!='.
+  line 96   col 10   Missing semicolon.
+  line 100  col 10   Missing semicolon.
+  line 103  col 63   Expected '!==' and instead saw '!='.
+  line 103  col 122  Expected '!==' and instead saw '!='.
+  line 110  col 10   Missing semicolon.
+  line 113  col 71   Expected '===' and instead saw '=='.
+  line 116  col 139  Confusing use of '!'.
+  line 118  col 175  Expected '!==' and instead saw '!='.
+  line 120  col 178  Expected '!==' and instead saw '!='.
+  line 150  col 10   Missing semicolon.
+  line 168  col 10   Missing semicolon.
+  line 184  col 10   Missing semicolon.
+  line 193  col 10   Missing semicolon.
+  line 202  col 10   Missing semicolon.
+  line 207  col 10   Missing semicolon.
+  line 214  col 10   Missing semicolon.
+
+  ×  1 error
+  ‼  17 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createOutOfTolerance\createOutOfToleranceConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createOutOfTolerance\createOutOfToleranceController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createThirdParty\createThirdPartyConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\createThirdParty\createThirdPartyController.js
+  line 4    col 9   Missing "use strict" statement.
+  line 15   col 95  Missing semicolon.
+  line 44   col 10  Missing semicolon.
+  line 56   col 10  Missing semicolon.
+  line 66   col 32  Expected '!==' and instead saw '!='.
+  line 70   col 10  Missing semicolon.
+  line 203  col 25  'savedID' is defined but never used.
+  line 212  col 10  Missing semicolon.
+  line 124  col 40  'moment' is not defined.
+  line 125  col 46  'moment' is not defined.
+  line 145  col 43  'moment' is not defined.
+  line 151  col 40  'moment' is not defined.
+  line 136  col 25  '_' is not defined.
+
+  ×  1 error
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\hemataStat\hemataStatDetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 14  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\hemataStat\hemataStatDetailController.js
+  line 5    col 9    Missing "use strict" statement.
+  line 24   col 42   'event' is defined but never used.
+  line 132  col 62   Expected '!==' and instead saw '!='.
+  line 147  col 60   Expected '!==' and instead saw '!='.
+  line 172  col 51   Expected '!==' and instead saw '!='.
+  line 181  col 26   Expected '!==' and instead saw '!='.
+  line 191  col 85   Expected '!==' and instead saw '!='.
+  line 235  col 44   Expected '===' and instead saw '=='.
+  line 249  col 109  Expected '!==' and instead saw '!='.
+  line 279  col 10   Missing semicolon.
+  line 284  col 10   Missing semicolon.
+  line 293  col 10   Missing semicolon.
+  line 307  col 21   'totalSeconds' is already defined.
+  line 316  col 10   Missing semicolon.
+  line 319  col 132  Expected '===' and instead saw '=='.
+  line 325  col 135  Expected '===' and instead saw '=='.
+  line 355  col 10   Missing semicolon.
+  line 396  col 10   Missing semicolon.
+  line 399  col 37   Expected '!==' and instead saw '!='.
+  line 404  col 10   Missing semicolon.
+  line 414  col 85   Expected '===' and instead saw '=='.
+  line 418  col 10   Missing semicolon.
+  line 427  col 10   Missing semicolon.
+  line 432  col 62   'reading' is defined but never used.
+  line 443  col 10   Missing semicolon.
+  line 450  col 10   Missing semicolon.
+  line 178  col 26   'moment' is not defined.
+  line 192  col 39   'moment' is not defined.
+  line 256  col 33   'moment' is not defined.
+  line 267  col 34   'moment' is not defined.
+  line 432  col 17   '_' is not defined.
+
+  ×  1 error
+  ‼  30 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\outOfTolerance\outOfToleranceConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 15  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\outOfTolerance\outOfToleranceController.js
+  line 3    col 9   Missing "use strict" statement.
+  line 25   col 10  Missing semicolon.
+  line 35   col 32  Expected '!==' and instead saw '!='.
+  line 38   col 10  Missing semicolon.
+  line 83   col 10  Missing semicolon.
+  line 87   col 41  'event' is defined but never used.
+  line 100  col 39  Expected '===' and instead saw '=='.
+  line 145  col 66  'config' is defined but never used.
+  line 145  col 57  'headers' is defined but never used.
+  line 145  col 49  'status' is defined but never used.
+  line 145  col 43  'data' is defined but never used.
+  line 105  col 21  '_' is not defined.
+  line 125  col 17  '_' is not defined.
+  line 143  col 17  '_' is not defined.
+
+  ×  1 error
+  ‼  13 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\home\homeConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\home\homeController.js
+  line 3    col 9   Missing "use strict" statement.
+  line 90   col 84  Expected '!==' and instead saw '!='.
+  line 106  col 83  Expected '!==' and instead saw '!='.
+  line 126  col 77  Expected '!==' and instead saw '!='.
+  line 153  col 40  Expected '===' and instead saw '=='.
+  line 182  col 40  Expected '===' and instead saw '=='.
+  line 188  col 43  Expected '===' and instead saw '=='.
+  line 191  col 42  Expected '===' and instead saw '=='.
+  line 215  col 40  Expected '===' and instead saw '=='.
+  line 221  col 43  Expected '===' and instead saw '=='.
+  line 224  col 42  Expected '===' and instead saw '=='.
+  line 47   col 13  '_' is not defined.
+  line 95   col 68  '_' is not defined.
+  line 111  col 17  '_' is not defined.
+  line 131  col 61  '_' is not defined.
+  line 150  col 17  '_' is not defined.
+  line 152  col 21  '_' is not defined.
+  line 179  col 17  '_' is not defined.
+  line 181  col 21  '_' is not defined.
+  line 187  col 50  '_' is not defined.
+  line 187  col 58  '_' is not defined.
+  line 190  col 49  '_' is not defined.
+  line 190  col 57  '_' is not defined.
+  line 212  col 17  '_' is not defined.
+  line 214  col 21  '_' is not defined.
+  line 220  col 50  '_' is not defined.
+  line 220  col 58  '_' is not defined.
+  line 223  col 49  '_' is not defined.
+  line 223  col 57  '_' is not defined.
+
+  ×  1 error
+  ‼  28 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\plasmapheresis\plasmapheresisDetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 18  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\plasmapheresis\plasmapheresisDetailController.js
+  line 4   col 9   Missing "use strict" statement.
+  line 21  col 42  'event' is defined but never used.
+  line 29  col 10  Missing semicolon.
+  line 38  col 10  Missing semicolon.
+  line 53  col 10  Missing semicolon.
+  line 57  col 10  Missing semicolon.
+  line 61  col 10  Missing semicolon.
+  line 68  col 77  Expected '===' and instead saw '=='.
+  line 72  col 10  Missing semicolon.
+  line 81  col 10  Missing semicolon.
+  line 85  col 10  Missing semicolon.
+
+  ×  1 error
+  ‼  10 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\refractometerDetail\refractometerDetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 14  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\refractometerDetail\refractometerDetailController.js
+  line 4    col 9    Missing "use strict" statement.
+  line 8    col 10   Missing semicolon.
+  line 12   col 10   Missing semicolon.
+  line 16   col 10   Missing semicolon.
+  line 79   col 42   'event' is defined but never used.
+  line 198  col 62   Expected '!==' and instead saw '!='.
+  line 213  col 63   Expected '!==' and instead saw '!='.
+  line 235  col 54   Expected '!==' and instead saw '!='.
+  line 242  col 51   Expected '!==' and instead saw '!='.
+  line 282  col 10   Missing semicolon.
+  line 286  col 10   Missing semicolon.
+  line 308  col 10   Missing semicolon.
+  line 312  col 10   Missing semicolon.
+  line 316  col 10   Missing semicolon.
+  line 349  col 10   Missing semicolon.
+  line 356  col 10   Missing semicolon.
+  line 385  col 10   Missing semicolon.
+  line 389  col 132  Expected '===' and instead saw '=='.
+  line 394  col 141  Expected '===' and instead saw '=='.
+  line 399  col 39   Expected '!==' and instead saw '!='.
+  line 401  col 39   Expected '!==' and instead saw '!='.
+  line 408  col 71   Missing semicolon.
+  line 442  col 10   Missing semicolon.
+  line 478  col 10   Missing semicolon.
+  line 487  col 90   Expected '===' and instead saw '=='.
+  line 491  col 10   Missing semicolon.
+  line 500  col 10   Missing semicolon.
+  line 508  col 10   Missing semicolon.
+
+  ×  1 error
+  ‼  27 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\rtd\rtdDetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 14  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\rtd\rtdDetailController.js
+  line 5    col 9    Missing "use strict" statement.
+  line 92   col 42   'event' is defined but never used.
+  line 114  col 10   Missing semicolon.
+  line 122  col 45   Expected '===' and instead saw '=='.
+  line 122  col 87   Expected '===' and instead saw '=='.
+  line 122  col 122  Expected '===' and instead saw '=='.
+  line 140  col 24   Expected '===' and instead saw '=='.
+  line 141  col 41   Expected '===' and instead saw '=='.
+  line 147  col 45   Expected '===' and instead saw '=='.
+  line 160  col 29   Expected '===' and instead saw '=='.
+  line 161  col 41   Expected '===' and instead saw '=='.
+  line 167  col 45   Expected '===' and instead saw '=='.
+  line 202  col 35   Expected '===' and instead saw '=='.
+  line 214  col 39   Expected '===' and instead saw '=='.
+  line 277  col 89   Expected '===' and instead saw '=='.
+  line 281  col 60   Expected '!==' and instead saw '!='.
+  line 284  col 58   Expected '!==' and instead saw '!='.
+  line 308  col 64   Expected '!==' and instead saw '!='.
+  line 311  col 62   Expected '!==' and instead saw '!='.
+  line 326  col 64   'results' is defined but never used.
+  line 275  col 17   'startTime' is defined but never used.
+  line 351  col 10   Missing semicolon.
+  line 361  col 10   Missing semicolon.
+  line 367  col 68   Expected '===' and instead saw '=='.
+  line 369  col 59   Expected '===' and instead saw '=='.
+  line 373  col 10   Missing semicolon.
+  line 377  col 10   Missing semicolon.
+  line 18   col 17   '_' is not defined.
+  line 19   col 27   '_' is not defined.
+  line 19   col 38   '_' is not defined.
+  line 52   col 17   '_' is not defined.
+  line 197  col 13   '_' is not defined.
+  line 360  col 13   'validate' is not defined.
+
+  ×  1 error
+  ‼  32 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\thirdPartydetail\thirdPartydetailConfig.js
+  line 3   col 13  Missing "use strict" statement.
+  line 14  col 48  Expected '!==' and instead saw '!='.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\thirdPartydetail\thirdPartydetailController.js
+  line 3    col 9   Missing "use strict" statement.
+  line 5    col 96  Missing semicolon.
+  line 77   col 32  Expected '!==' and instead saw '!='.
+  line 92   col 10  Missing semicolon.
+  line 101  col 10  Missing semicolon.
+  line 105  col 26  Expected '===' and instead saw '=='.
+  line 178  col 87  Expected '===' and instead saw '=='.
+  line 195  col 33  Expected '!==' and instead saw '!='.
+  line 202  col 29  'verificationRecord' is already defined.
+  line 210  col 29  'mDueDate' is already defined.
+  line 211  col 29  'mCompletedDate' is already defined.
+  line 213  col 29  'mNextDate' is already defined.
+  line 216  col 29  'offset' is already defined.
+  line 223  col 29  'regularDueDate' is already defined.
+  line 225  col 33  'regDate' is already defined.
+  line 229  col 33  'date' is already defined.
+  line 255  col 29  'savedID' is already defined.
+  line 168  col 33  'savedID' is defined but never used.
+  line 273  col 10  Missing semicolon.
+  line 128  col 44  'moment' is not defined.
+  line 129  col 50  'moment' is not defined.
+  line 143  col 47  'moment' is not defined.
+  line 147  col 44  'moment' is not defined.
+  line 210  col 40  'moment' is not defined.
+  line 211  col 46  'moment' is not defined.
+  line 225  col 43  'moment' is not defined.
+  line 229  col 40  'moment' is not defined.
+  line 135  col 29  '_' is not defined.
+  line 217  col 25  '_' is not defined.
+
+  ×  1 error
+  ‼  28 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\verificationDetail\verificationDetailConfig.js
+  line 3  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\verification\verificationDetail\verificationDetailController.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlManagement\controlCreation\controlCreation.js
+  line 6    col 9    Missing "use strict" statement.
+  line 21   col 9    Missing "use strict" statement.
+  line 47   col 10   Missing semicolon.
+  line 48   col 16   Expected an assignment or function call and instead saw an expression.
+  line 71   col 10   Missing semicolon.
+  line 89   col 10   Missing semicolon.
+  line 117  col 10   Missing semicolon.
+  line 34   col 49   '_' is not defined.
+  line 92   col 17   'equipmentTypeParam' is not defined.
+  line 96   col 17   'equipmentTypeParam' is not defined.
+  line 104  col 67   'equipmentTypeParam' is not defined.
+  line 93   col 17   'valueParam' is not defined.
+  line 98   col 17   'valueParam' is not defined.
+  line 104  col 138  'valueParam' is not defined.
+  line 94   col 17   'toleranceParam' is not defined.
+  line 99   col 17   'toleranceParam' is not defined.
+  line 104  col 150  'toleranceParam' is not defined.
+  line 97   col 17   'roundedRegex' is not defined.
+  line 98   col 30   'roundedRegex' is not defined.
+  line 99   col 34   'roundedRegex' is not defined.
+
+  ×  2 errors
+  ‼  18 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlManagement\controlManagementWrapper\controlManagementWrapper.js
+  line 5   col 9   Missing "use strict" statement.
+  line 24  col 9   Missing "use strict" statement.
+  line 26  col 10  Missing semicolon.
+
+  ×  2 errors
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlManagement\controlViewEdit\controlViewEdit.js
+  line 5    col 9    Missing "use strict" statement.
+  line 34   col 9    Missing "use strict" statement.
+  line 35   col 16   Expected an assignment or function call and instead saw an expression.
+  line 51   col 10   Missing semicolon.
+  line 87   col 45   'event' is defined but never used.
+  line 99   col 10   Missing semicolon.
+  line 107  col 10   Missing semicolon.
+  line 115  col 10   Missing semicolon.
+  line 123  col 84   Missing semicolon.
+  line 127  col 10   Missing semicolon.
+  line 134  col 10   Missing semicolon.
+  line 139  col 10   Missing semicolon.
+  line 143  col 10   Missing semicolon.
+  line 147  col 10   Missing semicolon.
+  line 151  col 10   Missing semicolon.
+  line 158  col 10   Missing semicolon.
+  line 177  col 133  Expected an assignment or function call and instead saw an expression.
+  line 188  col 10   Missing semicolon.
+  line 205  col 10   Missing semicolon.
+  line 215  col 10   Missing semicolon.
+  line 223  col 10   Missing semicolon.
+  line 33   col 170  'equipmentTypeService' is defined but never used.
+  line 34   col 9    'self' is not defined.
+  line 36   col 9    'self' is not defined.
+  line 83   col 44   'self' is not defined.
+  line 119  col 17   'self' is not defined.
+  line 149  col 9    'self' is not defined.
+  line 170  col 17   'self' is not defined.
+  line 181  col 33   'self' is not defined.
+  line 191  col 13   'self' is not defined.
+  line 200  col 25   'self' is not defined.
+  line 211  col 34   'self' is not defined.
+  line 217  col 9    'self' is not defined.
+  line 113  col 23   'moment' is not defined.
+  line 133  col 35   'assignControlObject' is not defined.
+  line 192  col 34   'assignControlObject' is not defined.
+
+  ×  2 errors
+  ‼  34 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlManagement\configurableControlViewEdit\configurableControlViewEdit.js
+  line 5    col 9    Missing "use strict" statement.
+  line 26   col 9    Missing "use strict" statement.
+  line 36   col 10   Missing semicolon.
+  line 48   col 45   'event' is defined but never used.
+  line 60   col 10   Missing semicolon.
+  line 68   col 10   Missing semicolon.
+  line 76   col 10   Missing semicolon.
+  line 83   col 10   Missing semicolon.
+  line 87   col 10   Missing semicolon.
+  line 94   col 10   Missing semicolon.
+  line 120  col 10   Missing semicolon.
+  line 126  col 139  Expected an assignment or function call and instead saw an expression.
+  line 134  col 10   Missing semicolon.
+  line 150  col 10   Missing semicolon.
+  line 158  col 91   Missing semicolon.
+  line 159  col 94   Missing semicolon.
+  line 166  col 10   Missing semicolon.
+  line 170  col 10   Missing semicolon.
+  line 184  col 10   Missing semicolon.
+  line 193  col 10   Missing semicolon.
+  line 26   col 9    'self' is not defined.
+  line 38   col 9    'self' is not defined.
+  line 45   col 68   'self' is not defined.
+  line 85   col 9    'self' is not defined.
+  line 104  col 17   'self' is not defined.
+  line 130  col 21   'self' is not defined.
+  line 141  col 50   'self' is not defined.
+  line 143  col 50   'self' is not defined.
+  line 146  col 54   'self' is not defined.
+  line 179  col 21   'self' is not defined.
+  line 181  col 58   'self' is not defined.
+  line 186  col 9    'self' is not defined.
+  line 74   col 23   'moment' is not defined.
+  line 81   col 43   'assignControlObject' is not defined.
+  line 173  col 50   'assignControlObject' is not defined.
+
+  ×  2 errors
+  ‼  33 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\controlManagement\controlsViewEditWrapper\controlsViewEditWrapper.js
+  line 5    col 9    Missing "use strict" statement.
+  line 24   col 9    Missing "use strict" statement.
+  line 33   col 51   Missing semicolon.
+  line 34   col 10   Missing semicolon.
+  line 53   col 10   Missing semicolon.
+  line 57   col 10   Missing semicolon.
+  line 75   col 10   Missing semicolon.
+  line 81   col 10   Missing semicolon.
+  line 94   col 10   Missing semicolon.
+  line 104  col 10   Missing semicolon.
+  line 108  col 10   Missing semicolon.
+  line 112  col 10   Missing semicolon.
+  line 117  col 10   Missing semicolon.
+  line 121  col 10   Missing semicolon.
+  line 24   col 9    'self' is not defined.
+  line 28   col 13   'self' is not defined.
+  line 36   col 9    'self' is not defined.
+  line 39   col 69   'self' is not defined.
+  line 39   col 85   'self' is not defined.
+  line 39   col 114  'self' is not defined.
+  line 47   col 20   'self' is not defined.
+  line 48   col 67   'self' is not defined.
+  line 48   col 106  'self' is not defined.
+  line 61   col 9    'self' is not defined.
+  line 64   col 37   'self' is not defined.
+  line 73   col 83   'self' is not defined.
+  line 77   col 9    'self' is not defined.
+  line 83   col 9    'self' is not defined.
+  line 96   col 9    'self' is not defined.
+  line 98   col 20   'self' is not defined.
+  line 106  col 9    'self' is not defined.
+  line 48   col 17   'promisedPromises' is not defined.
+  line 49   col 24   'promisedPromises' is not defined.
+  line 86   col 43   '_' is not defined.
+
+  ×  2 errors
+  ‼  32 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\calibratedStandard\calibratedStandardRepository.js
+  line 3   col 9   Missing "use strict" statement.
+  line 14  col 10  Unnecessary semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\configuration\configurationService.js
+  line 3   col 9   Missing "use strict" statement.
+  line 21  col 10  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\correctiveMaintenance\correctiveMaintenanceAttachmentConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\correctiveMaintenance\correctiveMaintenanceRepository.js
+  line 3    col 9    Missing "use strict" statement.
+  line 26   col 47   Expected '===' and instead saw '=='.
+  line 26   col 73   Expected '===' and instead saw '=='.
+  line 28   col 107  Missing semicolon.
+  line 31   col 47   Expected '===' and instead saw '=='.
+  line 31   col 77   Expected '===' and instead saw '=='.
+  line 45   col 10   Unnecessary semicolon.
+  line 51   col 10   Unnecessary semicolon.
+  line 57   col 10   Unnecessary semicolon.
+  line 85   col 26   Expected '!==' and instead saw '!='.
+  line 128  col 122  Missing semicolon.
+  line 133  col 21   'predicate' is already defined.
+  line 133  col 120  Missing semicolon.
+
+  ×  1 error
+  ‼  12 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\fileUpload\fileUploadService.js
+  line 4   col 5  Missing "use strict" statement.
+  line 40  col 3  Missing semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\outOfTolerance\outOfToleranceAttachmentConfig.js
+  line 4  col 13  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\outOfTolerance\outOfToleranceRepository.js
+  line 3   col 9    Missing "use strict" statement.
+  line 25  col 47   Expected '===' and instead saw '=='.
+  line 25  col 73   Expected '===' and instead saw '=='.
+  line 27  col 120  Missing semicolon.
+  line 29  col 47   Expected '===' and instead saw '=='.
+  line 29  col 77   Expected '===' and instead saw '=='.
+  line 53  col 47   Expected '===' and instead saw '=='.
+  line 53  col 73   Expected '===' and instead saw '=='.
+  line 55  col 120  Missing semicolon.
+  line 57  col 47   Expected '===' and instead saw '=='.
+  line 57  col 77   Expected '===' and instead saw '=='.
+  line 38  col 17   'console' is not defined.
+
+  ×  1 error
+  ‼  11 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\part\partRepository.js
+  line 3   col 9   Missing "use strict" statement.
+  line 14  col 10  Unnecessary semicolon.
+
+  ×  1 error
+  ‼  1 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\probe\probeRepository.js
+  line 3   col 9   Missing "use strict" statement.
+  line 19  col 10  Unnecessary semicolon.
+  line 25  col 10  Unnecessary semicolon.
+  line 31  col 10  Unnecessary semicolon.
+  line 46  col 10  Unnecessary semicolon.
+  line 48  col 65  'probe' is defined but never used.
+  line 61  col 10  Unnecessary semicolon.
+  line 48  col 18  'queryOutOfToleranceProbeReadingsForTemperature' is defined but never used.
+  line 51  col 65  'ID' is not defined.
+
+  ×  1 error
+  ‼  8 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\preventiveMaintenance\preventiveMaintenanceAttachmentConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\preventiveMaintenance\preventiveMaintenanceRepository.js
+  line 3    col 9    Missing "use strict" statement.
+  line 36   col 10   Missing semicolon.
+  line 49   col 107  Missing semicolon.
+  line 53   col 62   Missing semicolon.
+  line 68   col 10   Unnecessary semicolon.
+  line 72   col 10   Unnecessary semicolon.
+  line 78   col 10   Unnecessary semicolon.
+  line 95   col 10   Unnecessary semicolon.
+  line 101  col 10   Unnecessary semicolon.
+  line 107  col 10   Unnecessary semicolon.
+  line 113  col 10   Unnecessary semicolon.
+  line 120  col 10   Unnecessary semicolon.
+  line 126  col 10   Unnecessary semicolon.
+  line 132  col 10   Unnecessary semicolon.
+  line 137  col 62   Missing semicolon.
+  line 144  col 10   Unnecessary semicolon.
+  line 150  col 10   Unnecessary semicolon.
+  line 156  col 10   Unnecessary semicolon.
+  line 162  col 10   Unnecessary semicolon.
+  line 168  col 10   Unnecessary semicolon.
+  line 178  col 10   Unnecessary semicolon.
+  line 184  col 10   Unnecessary semicolon.
+  line 188  col 26   Expected '!==' and instead saw '!='.
+  line 235  col 114  Missing semicolon.
+  line 240  col 21   'predicate' is already defined.
+  line 240  col 112  Missing semicolon.
+  line 245  col 21   'predicate' is already defined.
+  line 245  col 110  Missing semicolon.
+  line 250  col 21   'predicate' is already defined.
+  line 250  col 108  Missing semicolon.
+  line 255  col 21   'predicate' is already defined.
+  line 255  col 122  Missing semicolon.
+  line 260  col 21   'predicate' is already defined.
+  line 260  col 120  Missing semicolon.
+  line 293  col 10   Unnecessary semicolon.
+  line 296  col 53   Expected '===' and instead saw '=='.
+  line 296  col 100  Expected '===' and instead saw '=='.
+  line 304  col 21   'preventiveMaintenanceQuery' is already defined.
+  line 308  col 10   Unnecessary semicolon.
+
+  ×  1 error
+  ‼  38 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\recordLock\recordLockRepository.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\security\accountService.js
+  line 3   col 9    Missing "use strict" statement.
+  line 22  col 10   Missing semicolon.
+  line 27  col 28   Expected '!==' and instead saw '!='.
+  line 72  col 121  Expected '{' and instead saw 'return'.
+  line 3   col 13   'query' is defined but never used.
+
+  ×  1 error
+  ‼  4 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\user\userService.js
+  line 3   col 9   Missing "use strict" statement.
+  line 41  col 17  '_' is not defined.
+  line 46  col 17  '_' is not defined.
+
+  ×  1 error
+  ‼  2 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\verification\controlDisplayConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\verification\verificationCommentDisplayConfig.js
+  line 3  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\verification\verificationFrequency.js
+  line 5   col 9  Missing "use strict" statement.
+  line 15  col 9  Missing "use strict" statement.
+  line 25  col 9  Missing "use strict" statement.
+  line 35  col 9  Missing "use strict" statement.
+  line 45  col 9  Missing "use strict" statement.
+
+  ×  5 errors  ‼  0 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\data\verification\verificationRepository.js
+  line 3    col 9    Missing "use strict" statement.
+  line 82   col 10   Unnecessary semicolon.
+  line 96   col 47   Expected '===' and instead saw '=='.
+  line 96   col 73   Expected '===' and instead saw '=='.
+  line 98   col 107  Missing semicolon.
+  line 101  col 47   Expected '===' and instead saw '=='.
+  line 101  col 77   Expected '===' and instead saw '=='.
+  line 125  col 10   Unnecessary semicolon.
+  line 168  col 114  Missing semicolon.
+  line 173  col 21   'predicate' is already defined.
+  line 173  col 112  Missing semicolon.
+  line 178  col 21   'predicate' is already defined.
+  line 178  col 110  Missing semicolon.
+  line 183  col 21   'predicate' is already defined.
+  line 183  col 108  Missing semicolon.
+  line 188  col 21   'predicate' is already defined.
+  line 188  col 122  Missing semicolon.
+  line 193  col 21   'predicate' is already defined.
+  line 193  col 120  Missing semicolon.
+  line 242  col 10   Unnecessary semicolon.
+  line 248  col 10   Unnecessary semicolon.
+  line 282  col 17   'controls' is defined but never used.
+  line 473  col 10   Unnecessary semicolon.
+  line 2    col 120  '$timeout' is defined but never used.
+
+  ×  1 error
+  ‼  23 warnings
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\modals\confirmation\confirmation.js
+  line 6  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\modals\validation\validationAlert.js
+  line 7  col 9  Missing "use strict" statement.
+
+  ×  1 error  ‼  0 warning
+
+
+C:\Dev\CMS\Baxalta.CalibrationMaintenance.Web\src\app\components\plasmapheresisReadings\dist\plasmapheresisReadingsWrapper.dev.js
+  line 1   col 1   Use the function form of "use strict".
+  line 73  col 60  Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (i)
+  line 73  col 30  '_' is not defined.
+
+  ‼  3 warnings
+
+[16:25:58] all files 1.34 MB
+[16:25:58] Finished 'scripts' after 8.53 s
+[16:25:58] Starting 'inject'...
+[16:25:58] gulp-inject 1 files into index.html.
+[16:25:58] Finished 'partials' after 8.01 s
+[16:25:59] gulp-inject 231 files into index.html.
+[16:25:59] Finished 'inject' after 499 ms
+[16:25:59] Starting 'html'...
+[16:25:59] gulp-inject 1 files into index.html.
+[16:26:01] 'dist\' styles\app-fa010782eb.css 1.24 kB
+[16:26:01] 'dist\' styles\vendor-2dbcf38369.css 139.94 kB
+[16:26:01] 'dist\' scripts\vendor-3cf9d700cf.js 3.09 MB
+[16:26:01] 'dist\' scripts\app-a7e2268d60.js 1.08 MB
+[16:26:01] 'dist\' index.html 4.19 kB
+[16:26:01] 'dist\' all files 4.32 MB
+[16:26:01] Finished 'html' after 2.28 s
+[16:26:01] Starting 'build'...
+[16:26:01] Finished 'build' after 69 μs
+
+EJM7295@USBNNH8KB1Z2-1 MINGW64 /c/Dev/CMS/Baxalta.CalibrationMaintenance.Web (develop)
+$
